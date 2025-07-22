@@ -1,9 +1,0 @@
-Function Main
-    Declare Real pages
-
-    Input pages
-    Declare Real Total
-
-    Assign Total = 3 + (pages*0.20)
-    Output Total
-End
