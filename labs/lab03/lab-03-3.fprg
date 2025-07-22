@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-3"/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 12:33:04 PM"/>
+        <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjoyMToxMiBQTTsxNzcy"/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjozMzowNCBQTTsxOzE4ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kilobyte" type="Real" array="False" size=""/>
+            <input variable="kilobyte"/>
+            <assign variable="megabyte" expression="kilobyte / 1024"/>
+            <assign variable="gigabyte" expression="megabyte / 1024"/>
+            <assign variable="terabyte" expression="gigabyte / 1024"/>
+            <assign variable="petabyte" expression="terabyte / 1024"/>
+            <declare name="megabyte, gigabyte, terabyte, petabyte" type="Real" array="False" size=""/>
+            <output expression="megabyte" newline="True"/>
+            <output expression="gigabyte" newline="True"/>
+            <output expression="terabyte" newline="True"/>
+            <output expression="petabyte" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-4"/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 12:44:09 PM"/>
+        <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjozOToyMSBQTTsxNzgx"/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjo0NDowOSBQTTszOzE4OTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pages" type="Real" array="False" size=""/>
+            <input variable="pages"/>
+            <declare name="Total" type="Real" array="False" size=""/>
+            <assign variable="Total" expression="3 + (pages*0.20)"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
