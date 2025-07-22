@@ -1,15 +1,9 @@
-Function Main
-    Declare Real kilobyte
-
-    Input kilobyte
-    Assign megabyte = kilobyte / 1024
-    Assign gigabyte = megabyte / 1024
-    Assign terabyte = gigabyte / 1024
-    Assign petabyte = terabyte / 1024
-    Declare Real megabyte, gigabyte, terabyte, petabyte
-
-    Output megabyte
-    Output gigabyte
-    Output terabyte
-    Output petabyte
-End
+kilobyte = float(input())
+megabyte = kilobyte / 1024
+gigabyte = megabyte / 1024
+terabyte = gigabyte / 1024
+petabyte = terabyte / 1024
+print(megabyte)
+print(gigabyte)
+print(terabyte)
+print(petabyte)
