@@ -4,20 +4,20 @@
         <attribute name="name" value="lab-03-3"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-22 12:33:04 PM"/>
+        <attribute name="saved" value="2025-07-22 12:51:16 PM"/>
         <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjoyMToxMiBQTTsxNzcy"/>
-        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjozMzowNCBQTTsxOzE4ODQ="/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjo1MToxNiBQTTsyOzE4ODg="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="kilobyte" type="Real" array="False" size=""/>
             <input variable="kilobyte"/>
+            <declare name="megabyte, gigabyte, terabyte, petabyte" type="Real" array="False" size=""/>
             <assign variable="megabyte" expression="kilobyte / 1024"/>
             <assign variable="gigabyte" expression="megabyte / 1024"/>
             <assign variable="terabyte" expression="gigabyte / 1024"/>
             <assign variable="petabyte" expression="terabyte / 1024"/>
-            <declare name="megabyte, gigabyte, terabyte, petabyte" type="Real" array="False" size=""/>
             <output expression="megabyte" newline="True"/>
             <output expression="gigabyte" newline="True"/>
             <output expression="terabyte" newline="True"/>
