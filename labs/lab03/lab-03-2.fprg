@@ -4,9 +4,9 @@
         <attribute name="name" value="Scenario 1"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-22 12:11:54 PM"/>
+        <attribute name="saved" value="2025-07-22 01:01:38 PM"/>
         <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMTo0OToxMSBBTTsxNzY1"/>
-        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yMjsxMjoxMTo1NCBQTTs2OzE4OTA="/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yMjswMTowMTozOCBQTTs3OzE4OTA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,7 +14,7 @@
             <declare name="numNIGHT" type="Real" array="False" size=""/>
             <input variable="numNIGHT"/>
             <declare name="Total" type="Real" array="False" size=""/>
-            <assign variable="Total" expression="numNIGHT + (numNIGHT * 0.15)"/>
+            <assign variable="Total" expression="(250 * numNIGHT) + (250 * numNIGHT * 0.15)"/>
             <output expression="Total" newline="True"/>
         </body>
     </function>
