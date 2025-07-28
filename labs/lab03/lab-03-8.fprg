@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-8"/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-29 01:29:07 AM"/>
+        <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yOTswMToxMzozOSBBTTsxNzcy"/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yOTswMToyOTowNyBBTTszOzE4ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="prinsipal, rate, time" type="Real" array="False" size=""/>
+            <input variable="prinsipal"/>
+            <input variable="rate"/>
+            <input variable="time"/>
+            <declare name="interest, totalAmount, monthlyInterest" type="Real" array="False" size=""/>
+            <assign variable="interest" expression="prinsipal * time * rate"/>
+            <assign variable="totalAmount" expression="prinsipal + interest"/>
+            <assign variable="monthlyInterest" expression="(interest / (time * 12))"/>
+            <output expression="interest" newline="True"/>
+            <output expression="totalAmount" newline="True"/>
+            <output expression="monthlyInterest" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
