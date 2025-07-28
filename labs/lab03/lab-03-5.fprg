@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-5"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-28 08:19:18 PM"/>
+        <attribute name="saved" value="2025-07-28 08:25:27 PM"/>
         <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yODswNzo1Mzo1MiBQTTsxNzkx"/>
-        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yODswODoxOToxOCBQTTsxOzE5MDQ="/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yODswODoyNToyNyBQTTsyOzE5MDI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,7 +14,7 @@
             <declare name="packsEaten" type="Real" array="False" size=""/>
             <input variable="packsEaten"/>
             <declare name="totalCalories" type="Real" array="False" size=""/>
-            <assign variable="totalCalories" expression="packsEaten * 3000"/>
+            <assign variable="totalCalories" expression="(packsEaten *10) * 3000"/>
             <output expression="totalCalories" newline="True"/>
         </body>
     </function>
