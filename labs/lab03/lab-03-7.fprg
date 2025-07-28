@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-7"/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-28 09:02:56 PM"/>
+        <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yODswODo1OTozOSBQTTsxODAz"/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yODswOTowMjo1NiBQTTsxOzE4OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celcius, kelvin, fahrenheit" type="Real" array="False" size=""/>
+            <input variable="celcius"/>
+            <assign variable="kelvin" expression="celcius + 273"/>
+            <assign variable="fahrenheit" expression="(celcius * 9/5) + 32"/>
+            <output expression="kelvin" newline="True"/>
+            <output expression="fahrenheit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
