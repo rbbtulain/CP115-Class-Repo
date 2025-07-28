@@ -4,5 +4,5 @@ houseLength = float(input())
 houseWidth = float(input())
 houseArea = houseLength * houseWidth
 yardArea = yardLength * yardWidth
-wAGE = yardArea - houseArea * 2.0
-print(wAGE)
+WAGE = (yardArea - houseArea) * 2.0
+print(WAGE)
