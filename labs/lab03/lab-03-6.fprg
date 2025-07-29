@@ -4,19 +4,24 @@
         <attribute name="name" value="lab-03-6"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-07-28 09:50:54 PM"/>
+        <attribute name="saved" value="2025-07-29 10:52:29 AM"/>
         <attribute name="created" value="QUNFUjtBSU47MjAyNS0wNy0yODswODozODo0MCBQTTsxNzky"/>
-        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yODswOTo1MDo1NCBQTTs1OzE5MDQ="/>
+        <attribute name="edited" value="QUNFUjtBSU47MjAyNS0wNy0yOTsxMDo1MjoyOSBBTTs2OzE4ODc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="yardLength, yardWidth, houseLength, houseWidth" type="Real" array="False" size=""/>
+            <declare name="yardLength" type="Real" array="False" size=""/>
+            <declare name="yardWidth" type="Real" array="False" size=""/>
+            <declare name="houseLength" type="Real" array="False" size=""/>
+            <declare name="houseWidth" type="Real" array="False" size=""/>
             <input variable="yardLength"/>
             <input variable="yardWidth"/>
             <input variable="houseLength"/>
             <input variable="houseWidth"/>
-            <declare name="WAGE, houseArea, yardArea" type="Real" array="False" size=""/>
+            <declare name="WAGE" type="Real" array="False" size=""/>
+            <declare name="houseArea" type="Real" array="False" size=""/>
+            <declare name="yardArea" type="Real" array="False" size=""/>
             <assign variable="houseArea" expression="houseLength * houseWidth"/>
             <assign variable="yardArea" expression="yardLength * yardWidth"/>
             <assign variable="WAGE" expression="(yardArea - houseArea) * 2.0"/>
