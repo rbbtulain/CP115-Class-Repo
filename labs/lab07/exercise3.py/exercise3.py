@@ -14,4 +14,3 @@ print(f"Name in UPPERCASE: {school_data.name_upper}")
 print(f"Name in lowercase: {school_data.name_lower}")
 print(f"Name length: {school_data.name_length} characters")
 
-print(f"name_upper: {school_data.name_upper}")
