@@ -1,7 +1,7 @@
 test1 = 78
 test2 = 85
 test3 = 92
-test4 = 89
+test4 = 67
 test5 = 88
 
 print(f"Test 1: {test1} (Type: {int(test1)})")
