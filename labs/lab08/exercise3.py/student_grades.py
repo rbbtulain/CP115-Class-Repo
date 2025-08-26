@@ -1,7 +1,7 @@
 test1 = 78
 test2 = 85
 test3 = 92
-test4 = 67
+test4 = 89
 test5 = 88
 
 print(f"Test 1: {test1} (Type: {int(test1)})")
@@ -18,11 +18,11 @@ print(f"Average Score: {average_score} (Type: {float(average_score)})")
 
 
 # Display the results showing each test score, total points, student average, and what percentage each test contributes to the total score.
-percentage1 = (test1 / 410) * 100
-percentage2 = (test2 / 410) * 100
-percentage3 = (test3 / 410) * 100
-percentage4 = (test4 / 410) * 100
-percentage5 = (test5 / 410) * 100
+percentage1 = (test1 / total_points) * 100
+percentage2 = (test2 / total_points) * 100
+percentage3 = (test3 / total_points) * 100
+percentage4 = (test4 / total_points) * 100
+percentage5 = (test5 / total_points) * 100
 
 print(f"Percentage1: {percentage1}% (Type: {float(percentage1)})")
 print(f"Percentage2: {percentage2}% (Type: {float(percentage2)})")
