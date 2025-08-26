@@ -14,3 +14,9 @@ print(f"Total Points: {total_points} (Type: {int(total_points)})")
 percentage = (total_points / 500) * 100
 print(f"Percentage: {percentage}% (Type: {float(percentage)})")
 
+print(f"Test 1: {test1} (Type: {int(test1)})")
+print(f"Test 2: {test2} (Type: {int(test2)})")
+print(f"Test 3: {test3} (Type: {int(test3)})")
+print(f"Test 4: {test4} (Type: {int(test4)})")
+print(f"Test 5: {test5} (Type: {int(test5)})")
+print(f"")
