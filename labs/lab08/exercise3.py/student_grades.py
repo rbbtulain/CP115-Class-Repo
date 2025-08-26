@@ -18,8 +18,17 @@ print(f"Average Score: {average_score} (Type: {float(average_score)})")
 
 
 # Display the results showing each test score, total points, student average, and what percentage each test contributes to the total score.
-percentage = (total_points / 500) * 100
-print(f"Percentage: {percentage}% (Type: {float(percentage)})")
+percentage1 = (100 - test1) * 100
+percentage2 = (100 - test2) * 100
+percentage3 = (100 - test3) * 100
+percentage4 = (100 - test4) * 100
+percentage5 = (100 - test5) * 100
+
+print(f"Percentage1: {percentage1}% (Type: {float(percentage1)})")
+print(f"Percentage2: {percentage2}% (Type: {float(percentage2)})")
+print(f"Percentage3: {percentage3}% (Type: {float(percentage3)})")
+print(f"Percentage4: {percentage4}% (Type: {float(percentage4)})")
+print(f"Percentage5: {percentage5}% (Type: {float(percentage5)})")
 
 
-print(f"")
+
