@@ -45,7 +45,6 @@ def test_student_classifications(exercise_path, gpa, credits, expected_classific
     actual_classification = classification_line.split("Classification: ")[1]
     
     assert actual_classification == expected_classification, f"Expected '{expected_classification}' but got '{actual_classification}'"
-
 @pytest.mark.parametrize("gpa,credits,expected_classification", [
     (3.9, 9, "Good Standing"),   # Part-time high GPA
     (3.6, 8, "Good Standing"),   # Part-time honor roll GPA  

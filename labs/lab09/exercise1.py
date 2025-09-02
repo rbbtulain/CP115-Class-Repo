@@ -8,17 +8,21 @@ credit_hours = int(input("Enter credit hours: "))
 # Use the requirements above to determine the student's classification
 # Store the result in a variable called 'classification'
 
-if gpa >= 3.8 and credit_hours >= 12:
-    classification = "Dean's List"
-elif gpa >= 3.5 and credit_hours >= 12:
-    classification = "Honor Roll"
-elif gpa >= 2.0:
-    classification = "Good Standing"
-else:
-    classification = "Academic Probation"
 
-    if credit_hours < 12:
-        classification += " (Part-time)"
+if credit_hours >= 12:  
+    if gpa >= 3.8:
+        classification = "Dean's List"
+    elif gpa >= 3.5:
+        classification = "Honor Roll"
+    elif gpa >= 2.0:
+        classification = "Good Standing"
+    else:
+        classification = "Academic Probation"
+else:  
+    if gpa >= 2.0:
+        classification = "Good Standing"
+    else:
+        classification = "Academic Probation"
         
 # Display results
 print(f"\nStudent: {student_name}")
