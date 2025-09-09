@@ -2,19 +2,21 @@ main_course = input()
 drink = input()
 dessert = input()
 customer_age = int(input())
+price = 0
+
 
 # TODO: Your code here
 if main_course == "chicken":
-    price = 10
-if main_course == "beef":
-    price = 12
-if main_course == "fish":
-    price = 11
+    menu_price = 10
+elif main_course == "beef":
+    menu_price = 12
+elif main_course == "fish":
+    menu_price = 11
 
 if drink == "soft_drink":
-    price = 2
+    drink_price = 2
 if drink == "coffee":
-    price = 3
+    drink_price = 3
 
 if dessert == "ice_cream":
     price = 4
