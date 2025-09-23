@@ -1,35 +1,48 @@
+# /labs/lab09/exercise5/exercise5.py
+
 main_course = input()
 drink = input()
 dessert = input()
 customer_age = int(input())
-price = 0
 
+# Menu prices
+main_course_prices = {
+    "chicken": 10,
+    "beef": 12,
+    "fish": 11
+}
 
-# TODO: Your code here
-if main_course == "chicken":
-    menu_price = 10
-elif main_course == "beef":
-    menu_price = 12
-elif main_course == "fish":
-    menu_price = 11
+drink_prices = {
+    "soft_drink": 2,
+    "coffee": 3
+}
 
-if drink == "soft_drink":
-    drink_price = 2
-if drink == "coffee":
-    drink_price = 3
+dessert_prices = {
+    "ice_cream": 4,
+    "cake": 5
+}
 
-if dessert == "ice_cream":
-    price = 4
-if dessert == "cake":
-    price = 5
+# Step 1: Get item prices
+total_food = 0
+if main_course in main_course_prices:
+    total_food += main_course_prices[main_course]
 
-final_bill = (price * main_course) + ( price * drink) + (price * dessert)
+if drink in drink_prices:
+    total_food += drink_prices[drink]
 
-if customer_age < 18:
-    final_bill = final_bill - (final_bill * 0.10)
+if dessert in dessert_prices:
+    total_food += dessert_prices[dessert]
 
-if customer_age >= 60:
-    final_bill = final_bill - (final_bill * 0.15)
+# Step 2: Add service charge (10%)
+bill_with_service = total_food * 1.10
 
+# Step 3: Apply discounts
+if customer_age > 60:  # Senior citizen discount
+    final_bill = bill_with_service * 0.85
+elif customer_age < 18:  # Student discount
+    final_bill = bill_with_service * 0.90
+else:
+    final_bill = bill_with_service
 
+# Step 4: Output
 print(f"{final_bill:.2f}")
