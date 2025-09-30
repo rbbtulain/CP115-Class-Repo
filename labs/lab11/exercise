@@ -1,0 +1,4 @@
+# Two parameters: range(start, stop)
+print("Custom start and stop:")
+for number in range(10, 15):
+    print(f"Number: {number}")
