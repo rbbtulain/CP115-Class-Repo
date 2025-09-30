@@ -1,4 +1,4 @@
-target_points = int(input())  # Target points to reach
+target_points = int(input())
 
 total_points = 0
 rounds_played = 0

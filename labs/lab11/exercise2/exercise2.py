@@ -1,5 +1,5 @@
-num_days = int(input())              # Number of days to process
-danger_threshold = float(input())    # Danger temperature threshold
+num_days = int(input())             
+danger_threshold = float(input())    
 
 danger_days = 0
 total_temp = 0
