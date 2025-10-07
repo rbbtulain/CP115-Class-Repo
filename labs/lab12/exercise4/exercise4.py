@@ -5,7 +5,7 @@ failing_count = 0
 total_count = 0
 pass_rate = 0.0
 
-while score_input != "end":  # Condition
+while score_input != "end" and -1 and 0:  # Condition
     score = float(score_input)
     total_count += 1
     if score >= 60:
